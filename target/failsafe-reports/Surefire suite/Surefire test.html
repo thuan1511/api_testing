@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 13 19:08:56 ICT 2020</td>
+<td>Started on:</td><td>Mon Aug 24 14:32:11 ICT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3381 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4973 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,57 +76,8 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='runners.runner.ApiTesting()'><b>ApiTesting</b><br>Test class: runners.runner</td>
-<td><div><pre>java.net.ConnectException: Connection refused (Connection refused)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
-	at utils.ApiUtils.getResponsebyPath(ApiUtils.java:44)
-	at TestDifinication.BasicApiTest.T01_StatusCodeTest(BasicApiTest.java:14)
-	at runners.runner.ApiTesting(runner.java:19)
-</pre></div><a href='#' onClick='toggleBox("stack-trace178917238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace178917238'><pre>java.net.ConnectException: Connection refused (Connection refused)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
-	at utils.ApiUtils.getResponsebyPath(ApiUtils.java:44)
-	at TestDifinication.BasicApiTest.T01_StatusCodeTest(BasicApiTest.java:14)
-	at runners.runner.ApiTesting(runner.java:19)
-</pre></div></td>
-<td>1</td>
+<td></td>
+<td>2</td>
 <td>ApiTesting(runners.runner)</td></tr>
 </table><p>
 </body>

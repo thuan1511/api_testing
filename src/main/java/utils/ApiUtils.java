@@ -14,8 +14,8 @@ public class ApiUtils {
     public static String jsonPathTerm;
 
     //Sets Base URI
-    public static void setBaseURI (){
-        RestAssured.baseURI = "http://generator.swagger.io/";
+    public void setBaseURI (String URL){
+        RestAssured.baseURI = URL;
     }
 
     //Sets base path

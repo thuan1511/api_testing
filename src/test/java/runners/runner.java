@@ -16,13 +16,13 @@ public class runner {
 	@org.junit.Test
     public void ApiTesting() {
         // Given
-		test.T01_StatusCodeTest();
+		test.T04_GetStatus();
 
         // When
-		test.T02_GetClients();
-
-        // Then
-		test.T03_GetAndroidModelPackageOptions();
+//		test.T02_GetClients();
+//
+//        // Then
+//		test.T03_GetAndroidModelPackageOptions();
 	}
 
 }

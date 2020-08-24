@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.runner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.547 s <<< FAILURE! - in runners.runner
-runners.runner.ApiTesting on ApiTesting(runners.runner)  Time elapsed: 1.44 s  <<< FAILURE!
-java.net.ConnectException: Connection refused (Connection refused)
-	at runners.runner.ApiTesting(runner.java:19)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.151 s - in runners.runner

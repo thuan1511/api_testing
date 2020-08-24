@@ -14,25 +14,26 @@ import utils.ApiUtils;
  */
 public class BaseTest {
 
+	ApiUtils util = new ApiUtils();
     public Response res = null; //Response
     public JsonPath jp = null; //JsonPath
 
     //Instantiate a Helper Test Methods (testUtils) Object
     TestUtils testUtils = new TestUtils();
 
-    @Before
-    public void setup (){
-        //Test Setup
-        ApiUtils.setBaseURI(); //Setup Base URI
-        ApiUtils.setBasePath("api"); //Setup Base Path
-        ApiUtils.setContentType(ContentType.JSON); //Setup Content Type
-    }
-
-    @After
-    public void afterTest (){
-        //Reset Values
-        ApiUtils.resetBaseURI();
-        ApiUtils.resetBasePath();
-    }
+//    @Before
+//    public void setup (){
+//        //Test Setup
+//    	util.setBaseURI(); //Setup Base URI
+//        ApiUtils.setBasePath("api"); //Setup Base Path
+//        ApiUtils.setContentType(ContentType.JSON); //Setup Content Type
+//    }
+//
+//    @After
+//    public void afterTest (){
+//        //Reset Values
+//        ApiUtils.resetBaseURI();
+//        ApiUtils.resetBasePath();
+//    }
 
 }

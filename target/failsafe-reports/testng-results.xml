@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="3381" started-at="2020-08-13T12:08:56Z" finished-at="2020-08-13T12:09:00Z">
+  <suite name="Surefire suite" duration-ms="4973" started-at="2020-08-24T07:32:11Z" finished-at="2020-08-24T07:32:16Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="3381" started-at="2020-08-13T12:08:56Z" finished-at="2020-08-13T12:09:00Z">
+    <test name="Surefire test" duration-ms="4973" started-at="2020-08-24T07:32:11Z" finished-at="2020-08-24T07:32:16Z">
       <class name="runners.runner">
-        <test-method status="FAIL" signature="ApiTesting()" name="ApiTesting" duration-ms="1562" started-at="2020-08-13T19:08:57Z" finished-at="2020-08-13T19:08:58Z">
-          <exception class="java.net.ConnectException">
-            <message>
-              <![CDATA[Connection refused (Connection refused)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.ConnectException: Connection refused (Connection refused)at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)at utils.ApiUtils.getResponsebyPath(ApiUtils.java:44)at TestDifinication.BasicApiTest.T01_StatusCodeTest(BasicApiTest.java:14)at runners.runner.ApiTesting(runner.java:19)]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.ConnectException -->
+        <test-method status="PASS" signature="ApiTesting()" name="ApiTesting" duration-ms="2980" started-at="2020-08-24T14:32:12Z" finished-at="2020-08-24T14:32:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApiTesting -->
